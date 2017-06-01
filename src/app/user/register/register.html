@@ -1,0 +1,9 @@
+<form (ngSubmit)="users()" class="form-horizontal" >
+<div class="controls col-md-6 "> 
+    <input class="input-md textinput textInput form-control" id="id_name" name="name" placeholder="Your First name and Last name" style="margin-bottom: 10px" type="text" required [(ngModel)]="user.username" #name="ngModel" />
+                            </div>
+
+    <div class="controls col-md-6 "> 
+    <input class="input-md textinput textInput form-control" id="id_name" name="name" placeholder="Your First name and Last name" style="margin-bottom: 10px" type="text" required [(ngModel)]="user.email" #name="ngModel" />
+                            </div>
+</form>

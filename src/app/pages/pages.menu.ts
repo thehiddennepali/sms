@@ -15,6 +15,18 @@ export const PAGES_MENU = [
         }
       },
       {
+        path: 'users',
+        data: {
+          menu: {
+            title: 'Users',
+            icon: 'ion-edit',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
+      },
+      {
         path: 'editors',
         data: {
           menu: {
